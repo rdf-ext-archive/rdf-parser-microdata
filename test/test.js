@@ -1,8 +1,7 @@
 /* global describe, it */
-
 var fs = require('fs')
-var rdf = require('rdf-ext')()
-var testUtils = require('rdf-test-utils')(rdf)
+var rdf = require('rdf-ext')
+var testUtils = require('rdf-test-utils')
 var MicrodataParser = require('../')
 var N3Parser = require('rdf-parser-n3')
 
