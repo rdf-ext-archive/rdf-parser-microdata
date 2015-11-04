@@ -1,7 +1,7 @@
 /* global describe, it */
+var assert = require('assert')
 var fs = require('fs')
 var rdf = require('rdf-ext')
-var testUtils = require('rdf-test-utils')
 var MicrodataParser = require('../')
 var N3Parser = require('rdf-parser-n3')
 
@@ -380,8 +380,8 @@ describe('Microdata parser', function () {
           MicrodataParser.parse(microdataContent, null, 'http://example.com/' + number + '.html'),
           N3Parser.parse(nTriplesContent, null, 'http://example.com/' + number + '.html')
         ]).then(function (graphs) {
-          return testUtils.p.assertGraphEqual(graphs[0], graphs[1])
-        }).then(function () {
+          assert(graphs[0].equals(graphs[1]))
+
           done()
         }).catch(function (error) {
           done(error)
