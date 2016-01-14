@@ -1,6 +1,6 @@
 {
   "name": "rdf-parser-microdata",
-  "version": "0.3.0-rc1",
+  "version": "0.3.0",
   "description": "Microdata parser that follows the RDF Interface specification",
   "main": "index.js",
   "scripts": {
@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-parser-microdata",
   "dependencies": {
-    "rdf-ext": "^0.3.0-rc1",
-    "rdf-parser-dom": "^0.3.0-rc1"
+    "rdf-ext": "^0.3.0",
+    "rdf-parser-dom": "^0.3.0"
   },
   "devDependencies": {
     "mocha": "^2.3.3",
-    "rdf-parser-n3": "^0.3.0-rc1"
+    "rdf-parser-n3": "^0.3.0"
   }
 }
