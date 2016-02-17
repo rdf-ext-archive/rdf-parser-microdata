@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-parser-microdata",
   "dependencies": {
+    "inherits": "^2.0.1",
     "rdf-ext": "^0.3.0",
     "rdf-parser-dom": "^0.3.0"
   },

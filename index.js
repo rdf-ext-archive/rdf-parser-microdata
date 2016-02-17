@@ -1,5 +1,5 @@
 var rdf = require('rdf-ext')
-var util = require('util')
+var inherits = require('inherits')
 var DomParser = require('rdf-parser-dom')
 var URIResolver = require('./uri-resolver')
 
@@ -356,7 +356,7 @@ var MicrodataParser = function () {
   };
 };
 
-util.inherits(MicrodataParser, DomParser)
+inherits(MicrodataParser, DomParser)
 
 // add singleton methods to class
 var instance = new MicrodataParser()
