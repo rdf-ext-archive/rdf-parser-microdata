@@ -1,3 +1,5 @@
+# This package is no longer maintained and not compatible with the latest RDF-Ext version
+
 # rdf-parser-microdata
 
 [![Build Status](https://travis-ci.org/rdf-ext/rdf-parser-microdata.svg?branch=master)](https://travis-ci.org/rdf-ext/rdf-parser-microdata)
